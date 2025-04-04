@@ -21,7 +21,7 @@ const AgeCal = () => {
     const today = new Date();
     const currentYear = today.getFullYear();
     let valid = true;
-    let newErrors = { day: "", month: "", year: "" };
+    const newErrors = { day: "", month: "", year: "" };
 
     // ตรวจสอบหากช่องวันว่าง
     const daysInMonth = new Date(year, month, 0).getDate();

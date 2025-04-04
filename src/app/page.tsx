@@ -1,5 +1,5 @@
 import AgeCal from "@/components/AgeCal";
-import Image from "next/image";
+
 
 const page = () => {
   return (
